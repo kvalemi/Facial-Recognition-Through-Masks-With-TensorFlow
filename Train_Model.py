@@ -14,8 +14,6 @@ import pickle
 
 # obtain training data function
 def create_training_data():
-    
-    faceCascade = cv2.CascadeClassifier('./haarcascade_face.xml')
 
     # Loop through training class folders
     for category in Classes:
